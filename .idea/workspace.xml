@@ -4,14 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7c83e2e-a1a2-4600-9509-ae98502a0009" name="Changes" comment="" />
+    <list default="true" id="c7c83e2e-a1a2-4600-9509-ae98502a0009" name="Changes" comment="Finished programming without tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/OrderRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/ProductRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/OrderRepoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/ProductRepoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/ShopServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ILnQDN6faKKSiAnmw6GsLqnseE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,9 +47,40 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.neuefische" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.Main" />
+      <module name="order-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,8 +89,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669969712527</updated>
+      <workItem from="1669969713844" duration="23342000" />
     </task>
+    <task id="LOCAL-00001" summary="Init: Jabadabadu">
+      <created>1669969799119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669969799119</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -47,5 +114,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init: Jabadabadu" />
+    <MESSAGE value="Finished programming without tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished programming without tests" />
   </component>
 </project>
