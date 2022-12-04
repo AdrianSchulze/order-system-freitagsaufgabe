@@ -14,9 +14,14 @@ public class ProductRepo {
        return products;
     }
 
-    public Product get(int idx) {
+    public Product get(String idx) {
         if(products != null) {
-            return products.get(idx);
+            for (Product product : products) {
+                if (product.getId().equals(idx)) {
+                    return product;
+                }
+            }
+            return null;
         }
         else {
             throw new IllegalArgumentException("Konnte kein Produkt finden");

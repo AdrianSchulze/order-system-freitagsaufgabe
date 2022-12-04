@@ -4,14 +4,11 @@ import lombok.Data;
 
 @Data
 public class Product {
-    int id;
+    String id;
     String name;
 
-    public Product() {
 
-    }
-
-    public Product(int id, String name) {
+    public Product(String id, String name) {
         this.id = id;
         this.name = name;
     }

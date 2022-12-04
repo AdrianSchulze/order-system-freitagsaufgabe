@@ -14,8 +14,13 @@ public class OrderRepo {
         return orders;
     }
 
-    public Order get(int idx) {
-        return orders.get(idx);
+    public Order get(String idx) {
+        for (Order order : orders) {
+            if (order.getId().equals(idx)) {
+                return order;
+            }
+        }
+        return null;
     }
 
     public void add(Order order) {

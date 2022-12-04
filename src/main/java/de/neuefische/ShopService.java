@@ -10,16 +10,12 @@ public class ShopService {
     ProductRepo productRepo;
     OrderRepo orderRepo;
 
-    public ShopService() {
-
-    }
-
     public ShopService(ProductRepo productRepo, OrderRepo orderRepo) {
         this.productRepo = productRepo;
         this.orderRepo = orderRepo;
     }
 
-    public Product getProduct(int idx){
+    public Product getProduct(String idx){
        return productRepo.get(idx);
    }
 
@@ -31,7 +27,7 @@ public class ShopService {
         orderRepo.add(order);
     }
 
-    public Order getOrder(int idx) {
+    public Order getOrder(String idx) {
         return orderRepo.get(idx);
     }
 
